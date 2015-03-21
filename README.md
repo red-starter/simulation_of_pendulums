@@ -1,4 +1,7 @@
+To install dependecies run: pip install -r requirements.txt
+
 The parameters are:
+
 	h - step size for finite difference method
 	D - damping constant of the pendulum
 	steps - number of steps (of size h) the simulations takes
