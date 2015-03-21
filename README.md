@@ -6,7 +6,7 @@ The parameters are:
 	D - damping constant of the pendulum
 	steps - number of steps (of size h) the simulations takes
 
-The size of h and D affects whether or the different methods produce stable solutions
+The size of h and D affects whether or not the different methods produce stable solutions
 
 
 Recipe for plotting energy and angle solutions for different single pendulum methods:
@@ -22,6 +22,8 @@ Recipe for plotting energy and angle solutions for different single pendulum met
 	S.plot_energies(values1,values2,values3,values4) 
 	S.plot_methods(values1,values2,values3,values4) 
 	plt.show()
+
+Notice the instability of the leapfrog method as time progresses
 
 ![Angle against time](https://github.com/red-starter/simulation_of_pendulums/blob/master/images/plot_of_different_methods_angle.png?raw=true)
 
